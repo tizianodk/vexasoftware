@@ -14,9 +14,9 @@ export default function Products() {
       <div className="mt-14 grid md:grid-cols-2 gap-6">
         {products.map((p, i) => (
           <Reveal key={p.name} delay={i * 100}>
-            <article className="glass-panel h-full p-8 relative overflow-hidden group hover:border-violet-bright/40 transition-colors duration-300">
-              <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full bg-violet/10 blur-3xl group-hover:bg-blue/15 transition-colors duration-500" />
-              <span className="relative eyebrow text-violet-bright">{p.tag}</span>
+            <article className="glass-panel h-full p-8 relative overflow-hidden group hover:border-blue-bright/40 transition-colors duration-300">
+              <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full bg-blue/10 blur-3xl group-hover:bg-blue/15 transition-colors duration-500" />
+              <span className="relative eyebrow text-blue-bright">{p.tag}</span>
               <h3 className="relative mt-3 font-display font-semibold text-xl">{p.name}</h3>
               <p className="relative mt-3 text-sm text-ink-muted leading-relaxed">{p.description}</p>
               <div className="relative mt-6 flex gap-6 border-t border-border pt-5">

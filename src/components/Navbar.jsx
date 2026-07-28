@@ -27,7 +27,7 @@ export default function Navbar() {
     >
       <nav className="flex items-center justify-between px-6 md:px-10 lg:px-16 py-4">
         <a href="#inicio" className="flex items-center">
-          <img src="/logo.png" alt="VEXA SOFTWARE" style={{ height: '130px', width: '130px' }} />
+          <img src="/logo.png" alt="VEXA SOFTWARE" style={{ height: '110px', width: '110px' }} />
         </a>
 
         <div className="hidden md:flex items-center gap-8">

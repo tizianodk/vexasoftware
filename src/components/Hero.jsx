@@ -13,7 +13,7 @@ export default function Hero() {
         <div>
           <span className="eyebrow inline-flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-cyan animate-pulse-slow" />
-            Software house — Tucumán, Argentina
+            Software — Tucumán, Argentina
           </span>
 
           <h1 className="mt-6 font-display font-bold text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] tracking-tight">
