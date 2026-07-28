@@ -46,11 +46,11 @@ body {
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-display font-semibold text-sm tracking-wide text-void bg-gradient-to-r from-blue-bright to-violet-bright shadow-glow transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-display font-semibold text-sm tracking-wide text-white bg-gradient-to-r from-blue-bright to-blue shadow-glow transition-transform duration-300 hover:scale-[1.03] active:scale-[0.98];
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-display font-semibold text-sm tracking-wide text-ink glass hover:border-blue-bright/50 hover:bg-white/[0.06] transition-all duration-300;
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-display font-semibold text-white text-sm tracking-wide bg-white/10 border border-blue-bright/30 hover:border-blue-bright/50 hover:bg-white/15 transition-all duration-300;
   }
 
   .section-pad {
@@ -58,12 +58,14 @@ body {
   }
 
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-bright via-white to-violet-bright;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-bright via-white to-blue;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
