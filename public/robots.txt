@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vexasoftware.vercel.app/sitemap.xml
