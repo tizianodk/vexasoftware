@@ -22,11 +22,7 @@ const socials = [
     icon: 'instagram',
     href: 'https://instagram.com/vexa.software1',
   },
-  {
-    name: 'Email',
-    icon: 'mail',
-    href: 'mailto:vexasoftware00@gmail.com',
-  },
+
 ]
 
 const initialForm = {
