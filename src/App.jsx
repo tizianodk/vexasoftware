@@ -9,6 +9,9 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FloatingWhatsApp from './components/FloatingWhatsApp'
+import Pricing from './components/Pricing'
+
+
 
 export default function App() {
   return (
@@ -18,6 +21,7 @@ export default function App() {
         <Hero />
         <About />
         <Services />
+        <Pricing />
         <Products />
         <WhyUs />
         <Process />
