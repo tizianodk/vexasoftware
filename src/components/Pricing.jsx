@@ -82,7 +82,7 @@ export default function Pricing() {
             />
 
             <div className="relative">
-                <Reveal className="max-w-3xl mx-auto text-center">
+                <Reveal className="max-w-3xl ">
                     <span className="eyebrow">Planes de páginas web</span>
 
                     <h2 className="mt-4 font-display font-bold text-3xl md:text-4xl lg:text-5xl leading-tight">
@@ -105,8 +105,8 @@ export default function Pricing() {
                         >
                             <article
                                 className={`relative h-full flex flex-col rounded-3xl border p-7 md:p-8 transition-all duration-300 hover:-translate-y-2 ${plan.featured
-                                        ? 'bg-gradient-to-b from-blue/15 to-white/[0.03] border-blue-bright/60 shadow-glow lg:scale-[1.04]'
-                                        : 'glass-panel border-border hover:border-blue-bright/40'
+                                    ? 'bg-gradient-to-b from-blue/15 to-white/[0.03] border-blue-bright/60 shadow-glow lg:scale-[1.04]'
+                                    : 'glass-panel border-border hover:border-blue-bright/40'
                                     }`}
                             >
                                 {plan.featured && (
@@ -128,8 +128,8 @@ export default function Pricing() {
 
                                     <div
                                         className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border ${plan.featured
-                                                ? 'border-blue-bright/40 bg-blue/20 text-cyan'
-                                                : 'border-border bg-white/[0.04] text-blue-bright'
+                                            ? 'border-blue-bright/40 bg-blue/20 text-cyan'
+                                            : 'border-border bg-white/[0.04] text-blue-bright'
                                             }`}
                                     >
                                         <Icon
