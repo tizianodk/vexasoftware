@@ -35,7 +35,7 @@ const plans = [
             'Galería de imágenes',
             'Formularios personalizados',
             'Animaciones modernas',
-            'Integración con Google Analytics',
+            'Estadisticas',
             'Optimización de velocidad',
             'SEO avanzado',
             'Blog o sección de novedades',
